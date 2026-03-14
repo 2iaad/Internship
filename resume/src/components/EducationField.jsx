@@ -7,7 +7,7 @@ export default function EducationField() {
 		},
 		{
 			degree: "Baccalaureate in Physical Sciences",
-			duration: "september 2020 – June 2021",
+			duration: "September 2020 – June 2021",
 			school: "High School – Sharif El Idrissi Benslimane"
 		}]
 

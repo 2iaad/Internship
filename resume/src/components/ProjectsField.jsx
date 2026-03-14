@@ -4,6 +4,11 @@ export default function ProjectsField() {
 
 	const projects = [
 		{
+			title: "Leets",
+			tech: "TypeScript, Express, React, Next.js, Tailwind, WebSockets",
+			description: "Block-based writing tool with embedded chat combining documentation, collaboration, and blogging in one seamless experience.",
+		},
+		{
 			title: "Inception",
 			tech: "Docker, Docker Compose",
 			description:
@@ -13,7 +18,7 @@ export default function ProjectsField() {
 			title: "HTTP Server",
 			tech: "C++, Sockets",
 			description:
-				"Developed an HTTP/1.1 web server that mimics NGINX behavior in C++ handling multiple client requests and serving static and dynamic content with CGI execution."
+				"Developed an HTTP/1.1 web server in C++ from scratch that mimics NGINX behavior handling multiple client requests and serving static and dynamic content."
 		},
 		{
 			title: "Unix CLI",

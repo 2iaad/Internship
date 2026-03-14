@@ -8,7 +8,7 @@ export default function Skills() {
 
         <div>
           <span className="font-semibold">Languages: </span>
-          C/C++, HTML/CSS, JavaScript, TypeScript
+          Bash, C/C++, HTML/CSS, JavaScript, TypeScript
         </div>
 
         <div>
@@ -18,7 +18,7 @@ export default function Skills() {
 
         <div>
           <span className="font-semibold">Tools: </span>
-          Git, Docker, MongoDB, Postman
+          Git, Docker, WebSockets, Figma, MongoDB, Postman
         </div>
 
       </div>

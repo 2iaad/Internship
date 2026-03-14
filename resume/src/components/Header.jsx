@@ -1,12 +1,14 @@
 import { useState } from 'react'
+import { FaLinkedin, FaGithub } from 'react-icons/fa'
 
 export default function Header() {
   const [name, setName] = useState("Ziyad Derfoufi")
   const [title, setTitle] = useState("Junior Software Engineer")
 
-  const [phone, setPhone] = useState("+212 697914807")
-  const [email, setEmail] = useState("ziadderfoufi@icloud.com")
-  const [linkedin, setLinkedin] = useState("https://www.linkedin.com/in/ziyadderfoufi/")
+  const [phone, setPhone] = useState("+212 697 91 48 07")
+  const [email, setEmail] = useState("ziyad@zderfoufi.dev")
+  const [linkedin, setLinkedin] = useState("ziyadderfoufi")
+  const [github, setgithub] = useState("2iaad")
 
   return (
     <div className="flex flex-col items-center gap-2">
@@ -14,15 +16,24 @@ export default function Header() {
       <p className="text-gray-600">{title}</p>
 
       <div className="flex gap-2 text-sm text-gray-500">
-        <p>{phone}</p>
-        |
         <p>{email}</p>
+        |
+        <p>{phone}</p>
         |
         <a
           href="https://www.linkedin.com/in/ziyadderfoufi/"
-          className="text-blue-600"
+          className="flex justify-center items-center gap-1"
+          target="_blank"
         >
-          {linkedin}
+          <FaLinkedin className='text-blue-600'/> {linkedin}
+        </a>
+        |
+        <a
+          href="https://www.github.com/2iaad"
+          className="flex justify-center items-center gap-1 "
+          target="_blank"
+        >
+          <FaGithub className='text-gray-600'/> {github}
         </a>
       </div>
     </div>
