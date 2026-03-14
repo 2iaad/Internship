@@ -35,7 +35,7 @@ export default function ProjectsField() {
 				<p className="italic text-gray-500 text-sm"> {project.tech} </p>
 			</div>
 			<div className="flex">
-				<p className="text-gray-700 ml-3"> - </p>
+				<p className="text-gray-700 ml-4 mt-1.5 text-[9px]">&#9679;</p>
 				<p className="text-gray-700 ml-2">{project.description} </p>
 			</div>
 		</div>

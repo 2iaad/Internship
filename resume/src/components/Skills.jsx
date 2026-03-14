@@ -12,13 +12,13 @@ export default function Skills() {
         </div>
 
         <div>
-          <span className="font-semibold">Libraries / Frameworks: </span>
+          <span className="font-semibold">Libraries & Frameworks: </span>
           Next.js, Express, React, Tailwind, Mongoose
         </div>
 
         <div>
-          <span className="font-semibold">Tools: </span>
-          Git, Docker, WebSockets, Figma, MongoDB, Postman
+          <span className="font-semibold">Tools & Technologies: </span>
+          Git, Docker, RESTful APIs, WebSockets, Figma, MongoDB, Postman
         </div>
 
       </div>

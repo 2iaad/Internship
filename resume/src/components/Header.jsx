@@ -16,24 +16,30 @@ export default function Header() {
       <p className="text-gray-600">{title}</p>
 
       <div className="flex gap-2 text-sm text-gray-500">
-        <p>{email}</p>
+        <a
+          href="mailto:ziyad@zderfoufi.dev"
+          className="underline"
+          target="_blank"
+        >
+          <p>{email}</p>
+        </a>
         |
         <p>{phone}</p>
         |
         <a
           href="https://www.linkedin.com/in/ziyadderfoufi/"
-          className="flex justify-center items-center gap-1"
+          className="flex justify-center underline items-center gap-1"
           target="_blank"
         >
-          <FaLinkedin className='text-blue-600'/> {linkedin}
+          <FaLinkedin className='text-blue-600' /> {linkedin}
         </a>
         |
         <a
           href="https://www.github.com/2iaad"
-          className="flex justify-center items-center gap-1 "
+          className="flex justify-center underline items-center gap-1 "
           target="_blank"
         >
-          <FaGithub className='text-gray-600'/> {github}
+          <FaGithub className='text-gray-600' /> {github}
         </a>
       </div>
     </div>

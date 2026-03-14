@@ -6,9 +6,14 @@ export default function EducationField() {
 			school: "1337 Coding School – Khouribga"
 		},
 		{
+			degree: "English Studies",
+			duration: "October 2021 – May 2023",
+			school: "American Language Center - Mohammedia"
+		},
+		{
 			degree: "Baccalaureate in Physical Sciences",
 			duration: "September 2020 – June 2021",
-			school: "High School – Sharif El Idrissi Benslimane"
+			school: "Sharif El Idrissi High School - Benslimane"
 		}]
 
 	const toRender = obj.map((item) => {
