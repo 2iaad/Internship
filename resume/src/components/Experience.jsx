@@ -5,8 +5,8 @@ export default function Experience({ experience }) {
 
   return (
     <section>
-      <h2 className="text-xl mb-1">Experience</h2>
-      <hr className='mb-3'></hr>
+      <h2 className="text-[19px]">Experience</h2>
+      <hr className='mb-2'></hr>
 
       <ExperienceField experience={experience} />
     </section>

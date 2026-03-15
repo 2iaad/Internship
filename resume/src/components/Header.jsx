@@ -10,8 +10,8 @@ export default function Header({ data }) {
   const githubLink = github ? `https://www.github.com/${github}` : undefined
 
   return (
-    <div className="flex flex-col items-center gap-2">
-      <h1 className="text-3xl font-bold">{name}</h1>
+    <div className='flex flex-col items-center gap-2'>
+      <h1 className="text-3xl font-semibold">{name}</h1>
       <p className="text-gray-600">{title}</p>
 
       <div className="flex gap-2 text-sm text-gray-500">

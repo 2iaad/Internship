@@ -30,7 +30,7 @@ const defaultResume = {
     github: "2iaad"
   },
   summary:
-    "Full-Stack Engineer and 1337 Coding School graduate. Experienced in building full-stack web applications and systems-level projects. Known for strong debugging skills, clean code, and building maintainable architectures.",
+    "Highly motivated Full-Stack Engineer and 1337 Coding School graduate. Experienced in building scalable web applications using modern JavaScript frameworks and systems-level projects. Known for strong debugging skills, clean code, and building maintainable architectures.",
   skills: {
     groupOrder: ["languages", "frameworks", "tools"],
     languages: ["Bash", "C/C++", "HTML/CSS", "JavaScript", "TypeScript"],
@@ -67,7 +67,7 @@ const defaultResume = {
       school: "American Language Center - Mohammedia"
     },
     {
-      degree: "Baccalaureate in Physical Sciences",
+      degree: "High School Diploma, Physical Sciences ",
       duration: "September 2020 – June 2021",
       school: "Sharif El Idrissi High School - Benslimane"
     }
@@ -95,7 +95,8 @@ const defaultResume = {
       tech: "C++, Sockets",
       description: "Software Engineer",
       tasks: [
-        "Developed an HTTP/1.1 web server in C++ from scratch that mimics NGINX behavior handling multiple client requests and serving static and dynamic content."
+        "Developed an HTTP/1.1 web server in C++ from scratch that mimics NGINX behavior handling multiple client requests and serving static and dynamic content.",
+        "Delivered to my team efficient GET & POST & DELETE request parsing using the most appropriate architectural pattern (FSM) to correctly process protocol edge cases."
       ]
     },
     {
@@ -227,7 +228,7 @@ export default function App() {
   }
 
   return (
-    <div className="flex min-h-screen bg-gray-100 text-[15px]">
+    <div className="flex min-h-screen bg-gray-100 text-[14px]">
       <aside className="sticky top-0 h-screen w-full max-w-[420px] border-r border-gray-200 bg-white p-6 overflow-y-auto print:hidden">
         <FormPanel
           resume={resume}
@@ -269,11 +270,11 @@ export default function App() {
                   />
                 )
               }
-              if (section === "experience") {
-                return (
-                  <Experience key={section} experience={resume.experience} />
-                )
-              }
+              // if (section === "experience") {
+              //   return (
+              //     <Experience key={section} experience={resume.experience} />
+              //   )
+              // }
               if (section === "education") {
                 return (
                   <Education key={section} education={resume.education} />

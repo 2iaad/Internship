@@ -16,13 +16,13 @@ export default function Skills({ skills, groupOrder }) {
 
   return (
     <section>
-      <h2 className="text-xl mb-1">Skills</h2>
-      <hr className='mb-3'></hr>
+      <h2 className="text-[19px]">Technical Skills</h2>
+      <hr className='mb-2'></hr>
 
       <div className="flex flex-col gap-1 px-5 text-gray-700">
         {order.map((groupKey) => (
           <div key={groupKey}>
-            <span className="font-semibold">{groupLabels[groupKey]}: </span>
+            <span className="text-gray-800 font-semibold">{groupLabels[groupKey]}: </span>
             {skills[groupKey].filter(Boolean).join(", ")}
           </div>
         ))}

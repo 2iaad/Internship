@@ -3,7 +3,7 @@ export default function EducationField({ education }) {
 		return (
 			<div key={`education-${index}`}>
 				<div className="flex justify-between">
-					<h3 className="font-semibold"> {item.school} </h3>
+					<h3 className="text-gray-800 font-semibold"> {item.school} </h3>
 					<p className="text-gray-600 text-sm"> {item.duration} </p>
 				</div>
 				<p className="text-gray-600 text-m"> {item.degree} </p>

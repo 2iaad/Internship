@@ -16,6 +16,12 @@
 | resume/src/components/Skills.jsx | Modified | Return null when all skill groups are empty so the heading and divider do not display. |
 | resume/src/components/Summary.jsx | Modified | Return null when summary text is empty so the heading and divider do not display. |
 
+## Print Color Accuracy (March 15, 2026)
+
+| File | Type of Change | Reason |
+|-----|-----|-----|
+| resume/src/index.css | Modified | Forced print color adjustment so Tailwind text colors are preserved in the PDF output. |
+
 ## Editor Panel Sticky Layout (March 15, 2026)
 
 | File | Type of Change | Reason |
